@@ -1,0 +1,78 @@
+
+.cont{
+    background-color: hsl(15, 6%, 13%);
+    /* width: 70%; */
+}
+
+.cont-outer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    color: rgb(254, 253, 250);
+}
+
+.pieChart-cont{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    color: rgb(249, 249, 251);
+}
+
+.card-ad{
+    text-align: center;
+
+}
+
+
+/* .adminContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 500px !important;
+} */
+
+.adminContainer #viewBlock{
+    margin-top: 20px;
+
+}
+
+.text-center {
+        background-image: linear-gradient(-225deg, #dc3545 0%,#007bff 29%,#dc3545 67%,#007bff 100%);
+          background-size: 200% auto;
+          background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+          animation: textclip 3s linear infinite;
+          display: inline-block;
+          font-size: 50px;
+    }
+    @keyframes textclip {
+        to {
+          background-position: 200% center;
+        }
+    }
+
+.cont-outer h1{
+    background-image: linear-gradient(-225deg, #fd7f0e 0%,#0000 29%,#fd7f0e 67%,#ffff 100%);
+          background-size: 200% auto;
+          background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+          animation: textclip 3s linear infinite;
+          display: inline-block;
+          font-size: 45px;
+    }
+    @keyframes textclip {
+        to {
+          background-position: 200% center;
+        }
+}

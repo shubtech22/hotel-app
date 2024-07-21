@@ -1,0 +1,6 @@
+springdoc:
+  swagger-ui:
+    path:/RoomService-swagger.html
+  operationSorter: method
+  jwtSecret: secret
+  jwtExpiration: 86400
